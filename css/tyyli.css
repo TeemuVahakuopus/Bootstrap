@@ -1,0 +1,47 @@
+header {
+    background-color: #f5f5f5;
+    height: 100px;
+}
+
+nav {
+    background-color: #f5f5f5;
+}
+
+div {
+    background-color: #f5f5f5;
+}
+
+aside {
+    background-color: #f5f5f5;
+}
+
+body {
+    background-color: #f8f9fa; /* Taustaväri koko sivulle */
+}
+
+.jumbotron {
+    background-color: #007bff; /* Otsikkoalueen taustaväri */
+    color: #ffffff; /* Tekstin väri otsikkoalueella */
+}
+
+/* Lisää tarvittavat tyylit muille osille */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: #333;
+}
